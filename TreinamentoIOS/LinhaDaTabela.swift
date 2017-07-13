@@ -11,7 +11,7 @@ import UIKit
 class LinhaDaTabela : UITableViewCell {
     
     @IBOutlet weak var addImage: UIImageView!
-    @IBOutlet weak var botao: UIButton!
+    @IBOutlet weak var titulo: UILabel!
     
     
 }

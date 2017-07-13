@@ -27,7 +27,7 @@ extension Tabela : UITableViewDataSource {
         let celula = tableView.dequeueReusableCell(withIdentifier: "linhaDaTabela") as? LinhaDaTabela
         
         celula!.addImage.image = UIImage(named: "add")
-        celula!.botao.setTitle(nomes[indexPath.row], for: .normal)
+        celula!.titulo.text = nomes[indexPath.row]
         
         return celula!
     }

@@ -148,23 +148,23 @@
                         <viewControllerLayoutGuide type="bottom" id="qYo-5D-tI7"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="DFX-n8-W4C">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" directionalLockEnabled="YES" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rfm-d0-c8a">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q81-fn-N8c">
-                                        <rect key="frame" x="8" y="8" width="359" height="568.33333333333337"/>
-                                        <mutableString key="text">Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC. Richard McClintock, um professor de latim do Hampden-Sydney College na Virginia, pesquisou uma das mais obscuras palavras em latim, consectetur, oriunda de uma passagem de Lorem Ipsum, e, procurando por entre citações da palavra na literatura clássica, descobriu a sua indubitável origem. Lorem Ipsum vem das seções 1.10.32 e 1.10.33 do "de Finibus Bonorum et Malorum" (Os Extremos do Bem e do Mal), de Cícero, escrito em 45 AC. Este livro é um tratado de teoria da ética muito popular na época da Renascença. A primeira linha de Lorem Ipsum, "Lorem Ipsum dolor sit amet..." vem de uma linha na seção 1.10.32.
+                                        <rect key="frame" x="8" y="8" width="398" height="507.33333333333337"/>
+                                        <string key="text">Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC. Richard McClintock, um professor de latim do Hampden-Sydney College na Virginia, pesquisou uma das mais obscuras palavras em latim, consectetur, oriunda de uma passagem de Lorem Ipsum, e, procurando por entre citações da palavra na literatura clássica, descobriu a sua indubitável origem. Lorem Ipsum vem das seções 1.10.32 e 1.10.33 do "de Finibus Bonorum et Malorum" (Os Extremos do Bem e do Mal), de Cícero, escrito em 45 AC. Este livro é um tratado de teoria da ética muito popular na época da Renascença. A primeira linha de Lorem Ipsum, "Lorem Ipsum dolor sit amet..." vem de uma linha na seção 1.10.32.
 
-O trecho padrão original de Lorem Ipsum, usado desde o século XVI, está reproduzido abaixo para os interessados. Seções 1.10.32 e 1.10.33 de "de Finibus Bonorum et Malorum" de Cicero também foram reproduzidas abaixo em sua forma exata original, acompanhada das versões para o inglês da tradução feita por H. Rackham em 1914.</mutableString>
+O trecho padrão original de Lorem Ipsum, usado desde o século XVI, está reproduzido abaixo para os interessados. Seções 1.10.32 e 1.10.33 de "de Finibus Bonorum et Malorum" de Cicero também foram reproduzidas abaixo em sua forma exata original, acompanhada das versões para o inglês da tradução feita por H. Rackham em 1914.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WPd-tx-CX5">
-                                        <rect key="frame" x="8" y="584.33333333333337" width="359" height="35"/>
+                                        <rect key="frame" x="8" y="523.33333333333337" width="398" height="35"/>
                                         <state key="normal" image="add"/>
                                         <connections>
                                             <segue destination="G5c-yd-eAB" kind="show" id="VMN-It-vBq"/>
@@ -191,8 +191,6 @@ O trecho padrão original de Lorem Ipsum, usado desde o século XVI, está repro
                             <constraint firstItem="rfm-d0-c8a" firstAttribute="top" secondItem="DFX-n8-W4C" secondAttribute="top" id="thX-KA-T4l"/>
                         </constraints>
                     </view>
-                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="375" height="1000"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MnL-4f-ETU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -207,41 +205,44 @@ O trecho padrão original de Lorem Ipsum, usado desde o século XVI, está repro
                         <viewControllerLayoutGuide type="bottom" id="raS-Sv-8ou"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="LRp-ng-xf7">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" directionalLockEnabled="YES" alwaysBounceVertical="YES" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="YZF-Jj-EZJ">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="linhaDaTabela" id="bTa-Mj-2Hs" customClass="LinhaDaTabela" customModule="TreinamentoIOS" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="28" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bTa-Mj-2Hs" id="F2D-VO-DOS">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="add" translatesAutoresizingMaskIntoConstraints="NO" id="nSh-OB-mXA">
                                                     <rect key="frame" x="8" y="8" width="35" height="27.666666666666664"/>
                                                 </imageView>
-                                                <button opaque="NO" tag="23" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R9r-y5-Kzs">
-                                                    <rect key="frame" x="51" y="8" width="316" height="27.666666666666664"/>
-                                                    <state key="normal" title="Button"/>
-                                                </button>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T84-1O-AQ4">
+                                                    <rect key="frame" x="51" y="8" width="355" height="27.666666666666664"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="R9r-y5-Kzs" firstAttribute="leading" secondItem="nSh-OB-mXA" secondAttribute="trailing" constant="8" id="3ib-ne-tG6"/>
-                                                <constraint firstItem="R9r-y5-Kzs" firstAttribute="top" secondItem="F2D-VO-DOS" secondAttribute="top" constant="8" id="OBR-Uz-HK6"/>
-                                                <constraint firstAttribute="trailing" secondItem="R9r-y5-Kzs" secondAttribute="trailing" constant="8" id="Ub6-QP-ihN"/>
+                                                <constraint firstItem="T84-1O-AQ4" firstAttribute="top" secondItem="F2D-VO-DOS" secondAttribute="top" constant="8" id="EHq-LS-RgS"/>
+                                                <constraint firstAttribute="trailing" secondItem="T84-1O-AQ4" secondAttribute="trailing" constant="8" id="G6v-9W-Ouu"/>
                                                 <constraint firstAttribute="bottom" secondItem="nSh-OB-mXA" secondAttribute="bottom" constant="8" id="aaY-Ih-C19"/>
-                                                <constraint firstAttribute="bottom" secondItem="R9r-y5-Kzs" secondAttribute="bottom" constant="8" id="bI5-wf-cCm"/>
+                                                <constraint firstAttribute="bottom" secondItem="T84-1O-AQ4" secondAttribute="bottom" constant="8" id="eul-up-2pE"/>
+                                                <constraint firstItem="T84-1O-AQ4" firstAttribute="leading" secondItem="nSh-OB-mXA" secondAttribute="trailing" constant="8" id="jcx-w1-sEB"/>
                                                 <constraint firstItem="nSh-OB-mXA" firstAttribute="top" secondItem="F2D-VO-DOS" secondAttribute="top" constant="8" id="pxg-XE-xUK"/>
                                                 <constraint firstItem="nSh-OB-mXA" firstAttribute="leading" secondItem="F2D-VO-DOS" secondAttribute="leading" constant="8" id="uzA-2F-Ce8"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="addImage" destination="nSh-OB-mXA" id="Lxi-zl-AnY"/>
-                                            <outlet property="botao" destination="R9r-y5-Kzs" id="mkT-OV-pz2"/>
+                                            <outlet property="titulo" destination="T84-1O-AQ4" id="rIo-2U-IaS"/>
+                                            <segue destination="3T3-NP-Pa7" kind="show" id="Su2-D8-lc1"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -261,10 +262,77 @@ O trecho padrão original de Lorem Ipsum, usado desde o século XVI, está repro
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xHq-ZT-nku" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1731.1594202898552" y="451.63043478260875"/>
+            <point key="canvasLocation" x="1751" y="544"/>
+        </scene>
+        <!--Coleção-->
+        <scene sceneID="MtR-kB-HD8">
+            <objects>
+                <viewController title="Coleção" id="3T3-NP-Pa7" customClass="Colecao" customModule="TreinamentoIOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="EH0-1M-pyG"/>
+                        <viewControllerLayoutGuide type="bottom" id="OOp-gb-KXa"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1IR-Pr-nyE">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Brn-uw-den">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="eaU-Jj-bgV">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="itemColecao" id="lE0-Q3-dcu">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" image="cloud" translatesAutoresizingMaskIntoConstraints="NO" id="6LS-Np-akT">
+                                                    <rect key="frame" x="8" y="8" width="34" height="30"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mg4-kh-YKx">
+                                                    <rect key="frame" x="8" y="42" width="34" height="0.0"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </view>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="mg4-kh-YKx" secondAttribute="bottom" constant="8" id="2gn-NW-yf8"/>
+                                            <constraint firstAttribute="trailing" secondItem="mg4-kh-YKx" secondAttribute="trailing" constant="8" id="FZb-17-OdI"/>
+                                            <constraint firstAttribute="trailing" secondItem="6LS-Np-akT" secondAttribute="trailing" constant="8" id="I9w-jW-PHC"/>
+                                            <constraint firstItem="mg4-kh-YKx" firstAttribute="top" secondItem="6LS-Np-akT" secondAttribute="bottom" constant="4" id="Q6H-hS-Uw6"/>
+                                            <constraint firstItem="mg4-kh-YKx" firstAttribute="leading" secondItem="lE0-Q3-dcu" secondAttribute="leading" constant="8" id="SnT-J6-W5D"/>
+                                            <constraint firstItem="6LS-Np-akT" firstAttribute="top" secondItem="lE0-Q3-dcu" secondAttribute="top" constant="8" id="VoE-mT-ghX"/>
+                                            <constraint firstItem="6LS-Np-akT" firstAttribute="leading" secondItem="lE0-Q3-dcu" secondAttribute="leading" constant="8" id="hBd-Jd-mFg"/>
+                                        </constraints>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Brn-uw-den" firstAttribute="top" secondItem="1IR-Pr-nyE" secondAttribute="top" id="2fx-ph-jKm"/>
+                            <constraint firstItem="Brn-uw-den" firstAttribute="leading" secondItem="1IR-Pr-nyE" secondAttribute="leading" id="66q-9R-IFC"/>
+                            <constraint firstItem="OOp-gb-KXa" firstAttribute="top" secondItem="Brn-uw-den" secondAttribute="bottom" id="gqa-vw-LZR"/>
+                            <constraint firstAttribute="trailing" secondItem="Brn-uw-den" secondAttribute="trailing" id="qPB-qU-UpU"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ypa-di-5M8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2555" y="544"/>
         </scene>
     </scenes>
     <resources>
         <image name="add" width="35" height="35"/>
+        <image name="cloud" width="42" height="42"/>
     </resources>
 </document>
