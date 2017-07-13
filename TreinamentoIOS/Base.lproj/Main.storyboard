@@ -10,14 +10,18 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Navigation Controller-->
+        <!--Tela inicial-->
         <scene sceneID="O7G-Ci-nWZ">
             <objects>
-                <navigationController id="G0A-sa-06Z" sceneMemberID="viewController">
+                <navigationController title="Tela inicial" id="G0A-sa-06Z" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="9Ng-pD-d1F">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="B50-Jf-vit">
+                        <rect key="frame" x="0.0" y="692" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="BTh-o2-0Ap"/>
                     </connections>
@@ -26,10 +30,10 @@
             </objects>
             <point key="canvasLocation" x="-858" y="37"/>
         </scene>
-        <!--View Controller-->
+        <!--Tela Inicial-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TreinamentoIOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Tela Inicial" id="BYZ-38-t0r" customClass="ViewController" customModule="TreinamentoIOS" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -42,7 +46,7 @@
                                 <rect key="frame" x="8" y="72" width="398" height="618"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="adfasdfasdfasdfasdfasdfasdfasdfsadfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdf" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J8h-ci-ZCv">
-                                        <rect key="frame" x="8" y="8" width="382" height="602"/>
+                                        <rect key="frame" x="16" y="0.0" width="366" height="86"/>
                                         <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="26"/>
                                         <color key="textColor" red="0.65206623077392578" green="0.90857207775115967" blue="0.42875784635543823" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -50,10 +54,9 @@
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="J8h-ci-ZCv" secondAttribute="bottom" constant="8" id="NES-rU-PZs"/>
-                                    <constraint firstAttribute="trailing" secondItem="J8h-ci-ZCv" secondAttribute="trailing" constant="8" id="Xnz-X6-Sas"/>
-                                    <constraint firstItem="J8h-ci-ZCv" firstAttribute="top" secondItem="oFy-Gg-MgB" secondAttribute="top" constant="8" id="lCV-R6-6Cz"/>
-                                    <constraint firstItem="J8h-ci-ZCv" firstAttribute="leading" secondItem="oFy-Gg-MgB" secondAttribute="leading" constant="8" id="rwB-Qj-Q4d"/>
+                                    <constraint firstItem="J8h-ci-ZCv" firstAttribute="top" secondItem="oFy-Gg-MgB" secondAttribute="top" id="NH0-2p-pKm" userLabel="topLabel"/>
+                                    <constraint firstAttribute="trailing" secondItem="J8h-ci-ZCv" secondAttribute="trailing" constant="16" id="hE4-cs-wyU" userLabel="trailingLabel"/>
+                                    <constraint firstItem="J8h-ci-ZCv" firstAttribute="leading" secondItem="oFy-Gg-MgB" secondAttribute="leading" constant="16" id="mJZ-qI-W3B" userLabel="leadingLabel"/>
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="252" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="23F-Un-ZFx">
@@ -66,21 +69,19 @@
                         </subviews>
                         <color key="backgroundColor" red="0.14739737520000001" green="1" blue="0.9499605901" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="oFy-Gg-MgB" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="50l-6d-g0G"/>
-                            <constraint firstItem="23F-Un-ZFx" firstAttribute="top" secondItem="oFy-Gg-MgB" secondAttribute="bottom" constant="8" id="6Hd-Qo-nZJ"/>
-                            <constraint firstAttribute="trailing" secondItem="23F-Un-ZFx" secondAttribute="trailing" constant="8" id="EhY-lD-IRt"/>
-                            <constraint firstItem="oFy-Gg-MgB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="8" id="WP1-Vp-gw6"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="23F-Un-ZFx" secondAttribute="bottom" constant="8" id="Ws3-Gp-VcK"/>
-                            <constraint firstAttribute="trailing" secondItem="oFy-Gg-MgB" secondAttribute="trailing" constant="8" id="hRF-nl-lQQ"/>
-                            <constraint firstItem="23F-Un-ZFx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="8" id="pdA-4b-JQu"/>
+                            <constraint firstItem="oFy-Gg-MgB" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="50l-6d-g0G" userLabel="topView"/>
+                            <constraint firstItem="23F-Un-ZFx" firstAttribute="top" secondItem="oFy-Gg-MgB" secondAttribute="bottom" constant="8" id="6Hd-Qo-nZJ" userLabel="bottomView"/>
+                            <constraint firstAttribute="trailing" secondItem="23F-Un-ZFx" secondAttribute="trailing" constant="8" id="EhY-lD-IRt" userLabel="trailingButton"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="23F-Un-ZFx" secondAttribute="bottom" constant="8" id="H3c-iA-fcn" userLabel="bottomButton"/>
+                            <constraint firstItem="oFy-Gg-MgB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="8" id="WP1-Vp-gw6" userLabel="leadingiew"/>
+                            <constraint firstAttribute="trailing" secondItem="oFy-Gg-MgB" secondAttribute="trailing" constant="8" id="hRF-nl-lQQ" userLabel="trailingView"/>
+                            <constraint firstItem="23F-Un-ZFx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="8" id="pdA-4b-JQu" userLabel="leadingButton"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="UdF-Fb-XaC"/>
+                    <navigationItem key="navigationItem" title="Home" id="UdF-Fb-XaC"/>
                     <connections>
                         <outlet property="labelTeste" destination="J8h-ci-ZCv" id="7Do-4K-Uom"/>
-                        <segue destination="MUS-2s-a8z" kind="popoverPresentation" identifier="lol" popoverAnchorView="J8h-ci-ZCv" id="lXR-ar-y6W">
-                            <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
-                        </segue>
+                        <segue destination="MUS-2s-a8z" kind="presentation" identifier="lol" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="lXR-ar-y6W"/>
                         <segue destination="ebw-4Y-6en" kind="show" identifier="teste" id="cD7-7K-gs6"/>
                     </connections>
                 </viewController>
@@ -97,19 +98,19 @@
                         <viewControllerLayoutGuide type="bottom" id="BFx-Go-mJf"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="a9z-xI-aGT">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2kD-by-HeY">
-                                <rect key="frame" x="8" y="28" width="176" height="593"/>
+                                <rect key="frame" x="8" y="28" width="195" height="662"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6rb-It-lqT">
-                                <rect key="frame" x="192" y="28" width="175" height="593"/>
+                                <rect key="frame" x="211" y="28" width="195" height="662"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bwC-rh-dqQ">
-                                <rect key="frame" x="8" y="629" width="359" height="30"/>
+                                <rect key="frame" x="8" y="698" width="398" height="30"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
@@ -138,10 +139,10 @@
             </objects>
             <point key="canvasLocation" x="981.88405797101461" y="-343.61413043478262"/>
         </scene>
-        <!--View Controller-->
+        <!--Lorem ipsum-->
         <scene sceneID="BoE-SR-xt0">
             <objects>
-                <viewController id="ebw-4Y-6en" sceneMemberID="viewController">
+                <viewController title="Lorem ipsum" id="ebw-4Y-6en" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="tTY-ac-My9"/>
                         <viewControllerLayoutGuide type="bottom" id="qYo-5D-tI7"/>
@@ -162,19 +163,16 @@ O trecho padrão original de Lorem Ipsum, usado desde o século XVI, está repro
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WPd-tx-CX5">
-                                        <rect key="frame" x="8" y="584" width="359" height="30"/>
-                                        <state key="normal" title="Button"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WPd-tx-CX5">
+                                        <rect key="frame" x="8" y="584.33333333333337" width="359" height="35"/>
+                                        <state key="normal" image="add"/>
+                                        <connections>
+                                            <segue destination="G5c-yd-eAB" kind="show" id="VMN-It-vBq"/>
+                                        </connections>
                                     </button>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="add" translatesAutoresizingMaskIntoConstraints="NO" id="gdr-Kn-KzM">
-                                        <rect key="frame" x="8" y="622" width="359" height="35"/>
-                                    </imageView>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="gdr-Kn-KzM" secondAttribute="trailing" constant="8" id="3nH-as-pKt"/>
-                                    <constraint firstAttribute="bottom" secondItem="gdr-Kn-KzM" secondAttribute="bottom" constant="8" id="8RU-TS-rHa"/>
-                                    <constraint firstItem="gdr-Kn-KzM" firstAttribute="leading" secondItem="rfm-d0-c8a" secondAttribute="leading" constant="8" id="QA0-C4-6mj"/>
-                                    <constraint firstItem="gdr-Kn-KzM" firstAttribute="top" secondItem="WPd-tx-CX5" secondAttribute="bottom" constant="8" id="TMF-yL-J78"/>
+                                    <constraint firstAttribute="bottom" secondItem="WPd-tx-CX5" secondAttribute="bottom" constant="8" id="XNH-ep-VRW"/>
                                     <constraint firstAttribute="trailing" secondItem="WPd-tx-CX5" secondAttribute="trailing" constant="8" id="duB-6A-UnV"/>
                                     <constraint firstItem="WPd-tx-CX5" firstAttribute="top" secondItem="q81-fn-N8c" secondAttribute="bottom" constant="8" id="hBt-n2-eJ8"/>
                                     <constraint firstItem="WPd-tx-CX5" firstAttribute="leading" secondItem="rfm-d0-c8a" secondAttribute="leading" constant="8" id="m8m-eC-p1u"/>
@@ -203,31 +201,31 @@ O trecho padrão original de Lorem Ipsum, usado desde o século XVI, está repro
         <!--Tabela-->
         <scene sceneID="YAd-NW-tCY">
             <objects>
-                <viewController id="G5c-yd-eAB" customClass="Tabela" customModule="TreinamentoIOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Tabela" id="G5c-yd-eAB" customClass="Tabela" customModule="TreinamentoIOS" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="6gx-sY-GHI"/>
                         <viewControllerLayoutGuide type="bottom" id="raS-Sv-8ou"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="LRp-ng-xf7">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="YZF-Jj-EZJ">
-                                <rect key="frame" x="0.0" y="20" width="414" height="716"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" directionalLockEnabled="YES" alwaysBounceVertical="YES" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="YZF-Jj-EZJ">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="linhaDaTabela" id="bTa-Mj-2Hs" customClass="LinhaDaTabela" customModule="TreinamentoIOS" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="44"/>
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bTa-Mj-2Hs" id="F2D-VO-DOS">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="add" translatesAutoresizingMaskIntoConstraints="NO" id="nSh-OB-mXA">
                                                     <rect key="frame" x="8" y="8" width="35" height="27.666666666666664"/>
                                                 </imageView>
                                                 <button opaque="NO" tag="23" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R9r-y5-Kzs">
-                                                    <rect key="frame" x="51" y="8" width="355" height="27.666666666666664"/>
+                                                    <rect key="frame" x="51" y="8" width="316" height="27.666666666666664"/>
                                                     <state key="normal" title="Button"/>
                                                 </button>
                                             </subviews>
@@ -253,7 +251,7 @@ O trecho padrão original de Lorem Ipsum, usado desde o século XVI, está repro
                         <constraints>
                             <constraint firstItem="raS-Sv-8ou" firstAttribute="top" secondItem="YZF-Jj-EZJ" secondAttribute="bottom" id="38s-pU-N8k"/>
                             <constraint firstAttribute="trailing" secondItem="YZF-Jj-EZJ" secondAttribute="trailing" id="LEn-HU-vg2"/>
-                            <constraint firstItem="YZF-Jj-EZJ" firstAttribute="top" secondItem="6gx-sY-GHI" secondAttribute="bottom" id="b50-IP-VKt"/>
+                            <constraint firstItem="YZF-Jj-EZJ" firstAttribute="top" secondItem="LRp-ng-xf7" secondAttribute="top" id="SVe-Rm-yRt"/>
                             <constraint firstItem="YZF-Jj-EZJ" firstAttribute="leading" secondItem="LRp-ng-xf7" secondAttribute="leading" id="lbI-H7-TNe"/>
                         </constraints>
                     </view>
@@ -263,7 +261,7 @@ O trecho padrão original de Lorem Ipsum, usado desde o século XVI, está repro
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xHq-ZT-nku" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1732" y="452"/>
+            <point key="canvasLocation" x="1731.1594202898552" y="451.63043478260875"/>
         </scene>
     </scenes>
     <resources>

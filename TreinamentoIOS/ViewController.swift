@@ -44,8 +44,9 @@ class ViewController: UIViewController {
 extension ViewController : ViewController2Delegate {
     
     func dismissController() {
-        self.dismiss(animated: false, completion: nil)
-        self.performSegue(withIdentifier: "teste", sender: nil)
+        self.dismiss(animated: true, completion: {
+            self.performSegue(withIdentifier: "teste", sender: nil)
+        })
     }
     
 }
