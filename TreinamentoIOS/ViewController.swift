@@ -33,6 +33,7 @@ class ViewController: UIViewController {
         if(segue.identifier == "lol") {
             if let destino = segue.destination as? ViewController2 {
                 destino.delegate = self
+                destino.texto = labelTeste.text!
             }
         } else {
             print("ops")
@@ -44,7 +45,7 @@ class ViewController: UIViewController {
 extension ViewController : ViewController2Delegate {
     
     func dismissController() {
-        self.dismiss(animated: true, completion: {
+        self.dismiss(animated: false, completion: {
             self.performSegue(withIdentifier: "teste", sender: nil)
         })
     }

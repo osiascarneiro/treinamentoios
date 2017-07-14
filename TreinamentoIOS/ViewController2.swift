@@ -12,6 +12,12 @@ class ViewController2 : UIViewController {
     
     weak var delegate: ViewController2Delegate?
     
+    var texto = ""
+    
+    override func viewDidLoad() {
+        print(texto)
+    }
+    
     @IBAction func proximoClick(_ sender: Any) {
         delegate?.dismissController()
     }
